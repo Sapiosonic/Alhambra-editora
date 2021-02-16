@@ -1,18 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans+JP:wght@300;400;500;700;900&family=Oswald:wght@300;400;500;600;700&display=swap');
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css)
-
-*{ 
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;1,300&family=Open+Sans:ital,wght@0,600;0,700;1,600&display=swap');
 
 body{
-    font-family: 'Lato', sans-serif;
-    color: rgba(0,0,0,0.8)
-    
+    padding: 0;
+    margin: 0;
+}
 
+container{
+    position: relative;
+    margin-top: 100px;
+}
 
+container img{
+    display:block;
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5;
+    height: 100px;
+    background-color: #E60014;
+}
+
+nav .logo{
+    float:left;
+    width:40%;
+    display:flex;
+    align-items: center;
+    font-size: 25px;
+    color:goldenrod;
+}
+
+nav links{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav links li{
+    list-style: none;
 }
