@@ -1,8 +1,9 @@
+/*Fonts*/
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;1,300&family=Open+Sans:ital,wght@0,600;0,700;1,600&display=swap');
 
 
-
+/*Navbar*/
 body{
     padding: 0;
     margin: 0;
@@ -122,4 +123,11 @@ nav .icon-burger .line{
     nav :checked ~.icon-burger .line:nth-child(2) {
     opacity: 0;
     }
+}
+
+/*footer*/
+.footer{
+    background: #272C2E;
+    color:honeydew;
+    height: 400px;
 }
